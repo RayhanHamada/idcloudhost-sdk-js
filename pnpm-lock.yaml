@@ -9,10 +9,14 @@ specifiers:
   eslint: ^8.28.0
   eslint-config-xo: ^0.43.1
   eslint-config-xo-typescript: ^0.55.1
+  ky: ^0.32.2
   tslib: ^2.4.1
   tsup: ^6.5.0
   typescript: ^4.9.3
   vitest: ^0.25.3
+
+dependencies:
+  ky: 0.32.2
 
 devDependencies:
   '@eslint/create-config': 0.4.1
@@ -1273,6 +1277,11 @@ packages:
   /json-stable-stringify-without-jsonify/1.0.1:
     resolution: {integrity: sha512-Bdboy+l7tA3OGW6FjyFHWkP5LuByj1Tk33Ljyq0axyzdk9//JSi2u3fP1QSmd1KNwq6VOKYGlAu87CisVir6Pw==}
     dev: true
+
+  /ky/0.32.2:
+    resolution: {integrity: sha512-eBJeF6IXNwX5rksdwBrE2rIJrU2d84GoTvdM7OmmTIwUVXEMd72wIwvT+nyhrqtv7AzbSNsWz7yRsHgVhj1uog==}
+    engines: {node: '>=14.16'}
+    dev: false
 
   /levn/0.4.1:
     resolution: {integrity: sha512-+bT2uH4E5LGE7h/n3evcS/sQlJXCpIp6ym8OWJ5eV6+67Dsql/LaaT7qJBAt2rzfoa/5QBGBhxDix1dMt2kQKQ==}

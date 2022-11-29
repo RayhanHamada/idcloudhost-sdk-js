@@ -11,7 +11,9 @@
       "files": ["*.ts", "*.tsx"],
       "rules": {
         "object-curly-spacing": "off",
-        "@typescript-eslint/object-curly-spacing": "off"
+        "@typescript-eslint/object-curly-spacing": "off",
+        "@typescript-eslint/naming-convention": "off",
+        "@typescript-eslint/keyword-spacing": "off"
       }
     }
   ],
