@@ -1,5 +1,3 @@
-export function helloWorld(name: string) {
-	console.log(name);
+export * from './sdk';
+export * from './user';
 
-	return name;
-}
