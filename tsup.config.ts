@@ -5,6 +5,7 @@ const commonOptions: Options = {
 	entry: ['lib/index.ts', 'lib/user/*.ts'],
 	clean: true,
 	dts: true,
+	splitting: false,
 };
 
 const buildOptions: Options[] = [
